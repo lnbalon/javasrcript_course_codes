@@ -20,3 +20,10 @@ let myCurrentJob = 'Hacker';
 
 console.log(myCurrentJob)
 
+let country = 'Philippines';
+let continent = 'Asia';
+let population = 120;
+
+console.log(country);
+console.log(continent);
+console.log(population);
