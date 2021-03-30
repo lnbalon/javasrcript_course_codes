@@ -65,4 +65,4 @@ console.log(typeof null)
 const birthYear = 1991;
 
 var job = 'programmer';
-job = 'hacker'
+job = 'hacker';
