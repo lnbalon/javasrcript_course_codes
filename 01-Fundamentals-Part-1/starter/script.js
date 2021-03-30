@@ -66,3 +66,5 @@ const birthYear = 1991;
 
 var job = 'programmer';
 job = 'hacker';
+
+lastName = 'balon';
