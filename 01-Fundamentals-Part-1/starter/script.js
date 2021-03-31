@@ -75,3 +75,10 @@ const ageSarah = now - 2018;
 console.log(ageJonas, ageSarah);
 
 console.log(ageJonas * 2, ageJonas / 2);
+console.log(2 ** 3)
+
+
+const firstName = 'Leonard';
+const lastName = 'Balon';
+
+console.log(firstName + ' ' + lastName);
