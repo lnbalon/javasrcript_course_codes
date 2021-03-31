@@ -72,6 +72,6 @@ console.log(typeof null)
 const now = 2037;
 const ageJonas = now - 1991;
 const ageSarah = now - 2018;
-console.log(ageJonas, ageSarah)
+console.log(ageJonas, ageSarah);
 
-
+console.log(ageJonas * 2, ageJonas / 2);
