@@ -84,9 +84,7 @@ console.log(firstName + ' ' + lastName);
 
 console.log(typeof firstName)
 
-let x = 10 + 5;
-x = 4
-console.log(x)
+
 
 console.log('counter values')
 let counter = 1;
@@ -111,3 +109,10 @@ console.log(18 === ageJonas)
 
 let isLegal = 18 <= ageJonas;
 console.log(isLegal)
+console.log(10 * 20 < 300)
+
+// order of precedence
+console.log(20 - 10 - 2);
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y);
