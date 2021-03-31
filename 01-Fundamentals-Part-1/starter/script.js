@@ -108,3 +108,6 @@ console.log(ageSarah < ageJonas)
 console.log(4 >= 4)
 console.log(4 <= 10)
 console.log(18 === ageJonas)
+
+let isLegal = 18 <= ageJonas;
+console.log(isLegal)
