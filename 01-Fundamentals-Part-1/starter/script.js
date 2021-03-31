@@ -56,7 +56,7 @@ console.log(typeof bong);
 
 let year;
 console.log(typeof year);
-year = 1991;
+year = 199
 console.log(typeof year);
 
 console.log(typeof null)
@@ -88,7 +88,23 @@ let x = 10 + 5;
 x = 4
 console.log(x)
 
+console.log('counter values')
 let counter = 1;
-counter += 1
+console.log(counter)
 counter += 1
 console.log(counter)
+counter += 1
+console.log(counter)
+counter *= 10
+console.log(counter)
+counter++;
+console.log(counter)
+counter--;
+console.log(counter)
+
+// comparison operators
+console.log(ageJonas > ageSarah)
+console.log(ageSarah < ageJonas)
+console.log(4 >= 4)
+console.log(4 <= 10)
+console.log(18 === ageJonas)
