@@ -62,9 +62,16 @@ console.log(typeof year);
 console.log(typeof null)
 */
 
-const birthYear = 1991;
+// const birthYear = 1991;
 
-var job = 'programmer';
-job = 'hacker';
+// var job = 'programmer';
+// job = 'hacker';
 
-lastName = 'balon';
+// lastName = 'balon';
+
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSarah = now - 2018;
+console.log(ageJonas, ageSarah)
+
+
