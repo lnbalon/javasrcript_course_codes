@@ -80,5 +80,10 @@ console.log(2 ** 3)
 
 const firstName = 'Leonard';
 const lastName = 'Balon';
-
 console.log(firstName + ' ' + lastName);
+
+console.log(typeof firstName)
+
+let x = 10 + 5;
+x = 4
+console.log(x)
