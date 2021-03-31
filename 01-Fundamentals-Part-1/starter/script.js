@@ -87,3 +87,8 @@ console.log(typeof firstName)
 let x = 10 + 5;
 x = 4
 console.log(x)
+
+let counter = 1;
+counter += 1
+counter += 1
+console.log(counter)
