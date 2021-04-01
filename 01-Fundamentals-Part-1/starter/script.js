@@ -142,5 +142,15 @@ const currentYear = 2037
 const bong = "I'm " + firstName + ", a " + (currentYear - birthYear) + ' year old ' + job;
 console.log(bong)
 
-const bongNew = `I'm ${firstName}, a ${currentYear - birthYear} year old ${job}`
-console.log(bongNew)
+const bongNew = `I'm ${firstName}, a ${currentYear - birthYear} year old ${job}`;
+console.log(bongNew);
+
+console.log(`print this statement`);
+
+console.log('string with \n\
+multiple lines \n\
+lines')
+
+console.log(`string with 
+new
+lines`)
