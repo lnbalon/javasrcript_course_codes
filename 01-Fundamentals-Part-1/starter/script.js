@@ -156,3 +156,13 @@ console.log(averageAge)
 // lines`)
 
 // if else statement
+
+const age = 15;
+const isLegal = age >= 18;
+
+if (isLegal) {
+    console.log('the applicant is old enough')
+}
+else {
+    console.log('the applicant cannot drive yet!')
+}
