@@ -167,3 +167,13 @@ if (isLegal) {
     console.log('the applicant cannot drive yet!')
     console.log(`need to wait another ${yearsLeft} years`)
 }
+
+const birthYear = 1987;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+
+console.log(century)
