@@ -135,3 +135,9 @@ console.log(averageAge)
 // console.log(bmiJohn, bmiMark);
 // console.log(markHigherBMI);
 
+const firstName = 'Leonard';
+const job = 'programmer';
+const birthYear = 1987;
+const currentYear = 2037
+const bong = "I'm " + firstName + ", a " + (currentYear - birthYear) + ' year old ' + job;
+console.log(bong)
