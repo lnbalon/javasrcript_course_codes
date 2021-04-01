@@ -123,13 +123,15 @@ console.log(averageAge)
 */
 
 // Coding challenge # 1
-const heightMark = 1.69;
-const weightMark = 78;
-const heightJohn = 1.95;
-const weightJohn = 92;
+// const heightMark = 1.69;
+// const weightMark = 78;
+// const heightJohn = 1.95;
+// const weightJohn = 92;
 
-const bmiMark = weightMark / (heightMark ** 2);
-const bmiJohn = weightJohn / (heightJohn ** 2);
+// const bmiMark = weightMark / (heightMark ** 2);
+// const bmiJohn = weightJohn / (heightJohn ** 2);
 
-markHigherBMI = bmiMark > bmiJohn;
-console.log(markHigherBMI);
+// markHigherBMI = bmiMark > bmiJohn;
+// console.log(bmiJohn, bmiMark);
+// console.log(markHigherBMI);
+
