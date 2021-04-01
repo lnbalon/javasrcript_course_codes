@@ -157,23 +157,34 @@ console.log(averageAge)
 
 // if else statement
 
-const age = 15;
-const isLegal = age >= 18;
+// const age = 15;
+// const isLegal = age >= 18;
 
-if (isLegal) {
-    console.log('the applicant is old enough')
-} else {
-    const yearsLeft = 18 - age;
-    console.log('the applicant cannot drive yet!')
-    console.log(`need to wait another ${yearsLeft} years`)
-}
+// if (isLegal) {
+//     console.log('the applicant is old enough')
+// } else {
+//     const yearsLeft = 18 - age;
+//     console.log('the applicant cannot drive yet!')
+//     console.log(`need to wait another ${yearsLeft} years`)
+// }
 
-const birthYear = 1987;
-let century;
-if (birthYear <= 2000) {
-    century = 20;
-} else {
-    century = 21;
-}
+// const birthYear = 1987;
+// let century;
+// if (birthYear <= 2000) {
+//     century = 20;
+// } else {
+//     century = 21;
+// }
 
-console.log(century)
+// console.log(century)
+
+
+// second coding challenge
+
+const heightMark = 1.69;
+const weightMark = 78;
+const heightJohn = 1.95;
+const weightJohn = 92;
+
+const bmiMark = weightMark / (heightMark ** 2);
+const bmiJohn = weightJohn / (heightJohn ** 2);
