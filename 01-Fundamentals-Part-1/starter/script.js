@@ -123,3 +123,10 @@ console.log(averageAge)
 */
 
 // Coding challenge # 1
+let heightMark = 1.69;
+let weightMark = 78;
+let heightJohn = 1.95;
+let weightJohn = 92;
+
+let bmiMark = weightMark / (heightMark ** 2);
+let bmiMark = weightMark / (heightMark ** 2);
