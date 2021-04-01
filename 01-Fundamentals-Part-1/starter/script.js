@@ -163,5 +163,7 @@ const isLegal = age >= 18;
 if (isLegal) {
     console.log('the applicant is old enough')
 } else {
+    const yearsLeft = 18 - age;
     console.log('the applicant cannot drive yet!')
+    console.log(`need to wait another ${yearsLeft} years`)
 }
