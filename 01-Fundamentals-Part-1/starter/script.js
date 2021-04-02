@@ -265,13 +265,13 @@ console.log(averageAge)
 
 // Basic boolean logic
 
-const age = 16;
-const a = age >= 20;
-const b = age < 30;
+// const age = 16;
+// const a = age >= 20;
+// const b = age < 30;
 
-console.log(!a)
-console.log(a & b)
-console.log(a | b)
+// console.log(!a)
+// console.log(a & b)
+// console.log(a | b)
 
-console.log(a & b)
-console.log(a | b) 
+// console.log(a & b)
+// console.log(a | b) 
