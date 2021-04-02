@@ -255,6 +255,8 @@ if (favoriteNumber === 23) {
     console.log('Amazing')
 } else if (favoriteNumber === 7) {
     console.log('Cool')
+} else if (favoriteNumber === 91) {
+    console.log('CooColelrl')
 } else {
     console.log('Try again')
 }
