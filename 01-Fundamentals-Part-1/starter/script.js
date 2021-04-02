@@ -226,3 +226,11 @@ console.log(Boolean(21));
 console.log(Boolean('bong'));
 console.log(Boolean(''));
 console.log(Boolean({}));
+
+const money = 0;
+
+if (money) {
+    console.log(`Don't spend it all`)
+} else {
+    console.log(`get a fucking job`)
+}
