@@ -181,19 +181,30 @@ console.log(averageAge)
 
 // second coding challenge
 
-const heightMark = 1.69;
-const weightMark = 78;
-const heightJohn = 1.95;
-const weightJohn = 92;
+// const heightMark = 1.69;
+// const weightMark = 78;
+// const heightJohn = 1.95;
+// const weightJohn = 92;
 
-const bmiMark = weightMark / (heightMark ** 2);
-const bmiJohn = weightJohn / (heightJohn ** 2);
+// const bmiMark = weightMark / (heightMark ** 2);
+// const bmiJohn = weightJohn / (heightJohn ** 2);
 
-if (bmiMark < bmiJohn) {
-    console.log(`Mark's BMI is less than that of John's`)
-    console.log(`${bmiJohn} vs. ${bmiMark}`)
-} else {
-    console.log(`John's BMI is less than that of Mark's`)
-    console.log(`${bmiJohn} vs. ${bmiMark}`)
-}
+// if (bmiMark < bmiJohn) {
+//     console.log(`Mark's BMI is less than that of John's`)
+//     console.log(`${bmiJohn} vs. ${bmiMark}`)
+// } else {
+//     console.log(`John's BMI is less than that of Mark's`)
+//     console.log(`${bmiJohn} vs. ${bmiMark}`)
+// }
+
+// type conversion
+
+const inputYear = '1998';
+inputYear_num = Number(inputYear);
+console.log(inputYear_num + 18);
+console.log(inputYear + 18);
+console.log(typeof inputYear);
+console.log(Number('bong'));
+console.log(typeof NaN);
+console.log(String(23.12));
 
