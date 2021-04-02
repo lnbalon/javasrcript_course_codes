@@ -196,3 +196,4 @@ if (bmiMark < bmiJohn) {
     console.log(`John's BMI is less than that of Mark's`)
     console.log(`${bmiJohn} vs. ${bmiMark}`)
 }
+
