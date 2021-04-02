@@ -260,3 +260,5 @@ if (favoriteNumber === 23) {
 } else {
     console.log('Try again')
 }
+
+if (favoriteNumber !== 23) console.log('why not?')
