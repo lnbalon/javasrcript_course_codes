@@ -247,5 +247,10 @@ console.log(averageAge)
 // if (age === '18') console.log('turned eighteen')
 // if (age == 18) console.log('turned eighteen')
 
-const favoriteNumber = prompt('Enter number: ')
+const favoriteNumber = Number(prompt('Enter number: '))
 console.log(favoriteNumber)
+console.log(typeof favoriteNumber)
+
+if (favoriteNumber === 23) {
+    console.log('Amazing')
+}
