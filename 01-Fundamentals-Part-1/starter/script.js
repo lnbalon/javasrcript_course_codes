@@ -263,3 +263,15 @@ console.log(averageAge)
 
 // if (favoriteNumber !== 23) console.log('why not?')
 
+// Basic boolean logic
+
+const age = 16;
+const a = age >= 20;
+const b = age < 30;
+
+console.log(!a)
+console.log(a & b)
+console.log(a | b)
+
+console.log(a & b)
+console.log(a | b) 
