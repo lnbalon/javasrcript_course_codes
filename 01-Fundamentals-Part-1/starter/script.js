@@ -208,3 +208,15 @@ console.log(Number('bong'));
 console.log(typeof NaN);
 console.log(String(23.12));
 
+// type coercion
+console.log('I am ' + 23 + ' years old')
+console.log('23' - 12)
+console.log('23' * '2')
+
+let n = '1' + 1;
+n--
+console.log(n)
+console.log(typeof n)
+
+
+// Truthy and Falsy values
