@@ -242,7 +242,10 @@ console.log(averageAge)
 //     console.log(`define height`)
 // }
 
-const age = 18;
+// const age = 18;
 
-if (age === '18') console.log('turned eighteen')
-if (age == 18) console.log('turned eighteen')
+// if (age === '18') console.log('turned eighteen')
+// if (age == 18) console.log('turned eighteen')
+
+const favoriteNumber = prompt('Enter number: ')
+console.log(favoriteNumber)
