@@ -247,18 +247,19 @@ console.log(averageAge)
 // if (age === '18') console.log('turned eighteen')
 // if (age == 18) console.log('turned eighteen')
 
-const favoriteNumber = Number(prompt('Enter number: '))
-console.log(favoriteNumber)
-console.log(typeof favoriteNumber)
+// const favoriteNumber = Number(prompt('Enter number: '))
+// console.log(favoriteNumber)
+// console.log(typeof favoriteNumber)
 
-if (favoriteNumber === 23) {
-    console.log('Amazing')
-} else if (favoriteNumber === 7) {
-    console.log('Cool')
-} else if (favoriteNumber === 91) {
-    console.log('CooColelrl')
-} else {
-    console.log('Try again')
-}
+// if (favoriteNumber === 23) {
+//     console.log('Amazing')
+// } else if (favoriteNumber === 7) {
+//     console.log('Cool')
+// } else if (favoriteNumber === 91) {
+//     console.log('CooColelrl')
+// } else {
+//     console.log('Try again')
+// }
 
-if (favoriteNumber !== 23) console.log('why not?')
+// if (favoriteNumber !== 23) console.log('why not?')
+
