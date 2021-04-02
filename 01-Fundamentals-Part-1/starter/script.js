@@ -244,4 +244,5 @@ console.log(averageAge)
 
 const age = 18;
 
-if (age === 18) console.log('turned eighteen')
+if (age === '18') console.log('turned eighteen')
+if (age == 18) console.log('turned eighteen')
