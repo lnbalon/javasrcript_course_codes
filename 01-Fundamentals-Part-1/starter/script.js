@@ -275,3 +275,18 @@ console.log(averageAge)
 
 // console.log(a & b)
 // console.log(a | b) 
+
+const hasLicense = true;
+const hasGoodVision = true;
+
+// console.log(hasGoodVision && hasLicense);
+// console.log(hasGoodVision || hasLicense);
+// console.log(!hasGoodVision || hasLicense);
+
+const shouldDrive = hasLicense && hasGoodVision;
+
+if (shouldDrive) {
+    console.log('can drive')
+} else {
+    console.log('cannot drive')
+}
