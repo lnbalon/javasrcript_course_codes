@@ -278,12 +278,13 @@ console.log(averageAge)
 
 const hasLicense = true;
 const hasGoodVision = true;
+const isTired = true;
 
 // console.log(hasGoodVision && hasLicense);
 // console.log(hasGoodVision || hasLicense);
 // console.log(!hasGoodVision || hasLicense);
 
-const shouldDrive = hasLicense && hasGoodVision;
+const shouldDrive = hasLicense && hasGoodVision && !isTired;
 
 if (shouldDrive) {
     console.log('can drive')
