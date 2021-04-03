@@ -294,24 +294,24 @@ console.log(averageAge)
 
 // coding challenge
 
-const dolphinOne = 96;
+const dolphinOne = 100;
 const dolphinTwo = 108;
-const dolphinThree = 89;
-const koalaOne = 88;
-const koalaTwo = 100;
-const koalaThree = 110;
+const dolphinThree = 1000;
+const koalaOne = 100;
+const koalaTwo = 108;
+const koalaThree = 1000;
 
 const aveScoreDolhpins = (dolphinOne + dolphinTwo + dolphinThree) / 3;
 const aveScoreKoalas = (koalaOne + koalaTwo + koalaThree) / 3;
 
 // Question 1
-if (aveScoreKoalas > aveScoreDolhpins) {
-    console.log('Koalas wins!')
-} else if (aveScoreDolhpins > aveScoreKoalas) {
-    console.log('Dolphin wins!')
-} else {
-    console.log('It is a tie!')
-}
+// if (aveScoreKoalas > aveScoreDolhpins) {
+//     console.log('Koalas wins!')
+// } else if (aveScoreDolhpins > aveScoreKoalas) {
+//     console.log('Dolphin wins!')
+// } else {
+//     console.log('It is a tie!')
+// }
 
 
 // BONUS 1
