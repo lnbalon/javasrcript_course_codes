@@ -351,16 +351,16 @@ console.log(averageAge)
 //         console.log('Enter a valid date!');
 // }
 
-3 + 4 // experession
-1991 // experession
-true && true // experession
+// 3 + 4 // experession
+// 1991 // experession
+// true && true // experession
 
-if (23 > 100) {
-    const str = '23 is bigger'
-}
+// if (23 > 100) {
+//     const str = '23 is bigger'
+// }
 
-// expressions produces value while statements are bigger.
+// // expressions produces value while statements are bigger.
 
-console.log(`I'm ${2031 - 1987} years old`)
+// console.log(`I'm ${2031 - 1987} years old`)
 
 // template literals requires an expression
