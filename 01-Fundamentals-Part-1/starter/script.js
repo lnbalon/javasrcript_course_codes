@@ -325,27 +325,28 @@ if (aveScoreKoalas > aveScoreDolhpins && aveScoreKoalas >= 100) {
     console.log('Nobody wins!')
 }
 
-const day = 'monday';
+const day = 'sunday';
 
 switch (day) {
     case 'monday':
-        console.log('Coding ang 1-2')
+        console.log('Coding ang 1-2');
         break;
     case 'tuesday':
-        console.log('Coding ang 3-4')
+        console.log('Coding ang 3-4');
         break;
     case 'wednesday':
-        console.log('Coding ang 5-6')
+        console.log('Coding ang 5-6');
         break;
     case 'thursday':
-        console.log('Coding ang 7-8')
+        console.log('Coding ang 7-8');
         break;
     case 'friday':
-        console.log('Coding ang 9-0')
+        console.log('Coding ang 9-0');
         break;
     case 'saturday':
     case 'sunday':
         console.log('No coding!');
+        break;
     default:
         console.log('Enter a valid date!');
 }
