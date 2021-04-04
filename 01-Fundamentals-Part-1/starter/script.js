@@ -294,15 +294,15 @@ console.log(averageAge)
 
 // coding challenge
 
-const dolphinOne = 100;
-const dolphinTwo = 108;
-const dolphinThree = 1000;
-const koalaOne = 100;
-const koalaTwo = 108;
-const koalaThree = 1000;
+// const dolphinOne = 100;
+// const dolphinTwo = 108;
+// const dolphinThree = 1000;
+// const koalaOne = 100;
+// const koalaTwo = 108;
+// const koalaThree = 1000;
 
-const aveScoreDolhpins = (dolphinOne + dolphinTwo + dolphinThree) / 3;
-const aveScoreKoalas = (koalaOne + koalaTwo + koalaThree) / 3;
+// const aveScoreDolhpins = (dolphinOne + dolphinTwo + dolphinThree) / 3;
+// const aveScoreKoalas = (koalaOne + koalaTwo + koalaThree) / 3;
 
 // Question 1
 // if (aveScoreKoalas > aveScoreDolhpins) {
@@ -315,38 +315,38 @@ const aveScoreKoalas = (koalaOne + koalaTwo + koalaThree) / 3;
 
 
 // BONUS 1
-if (aveScoreKoalas > aveScoreDolhpins && aveScoreKoalas >= 100) {
-    console.log('Koalas wins!')
-} else if (aveScoreDolhpins > aveScoreKoalas && aveScoreDolhpins >= 100) {
-    console.log('Dolphin wins!')
-} else if (aveScoreDolhpins === aveScoreKoalas && aveScoreKoalas > 100) {
-    console.log('It is a tie!')
-} else {
-    console.log('Nobody wins!')
-}
+// if (aveScoreKoalas > aveScoreDolhpins && aveScoreKoalas >= 100) {
+//     console.log('Koalas wins!')
+// } else if (aveScoreDolhpins > aveScoreKoalas && aveScoreDolhpins >= 100) {
+//     console.log('Dolphin wins!')
+// } else if (aveScoreDolhpins === aveScoreKoalas && aveScoreKoalas > 100) {
+//     console.log('It is a tie!')
+// } else {
+//     console.log('Nobody wins!')
+// }
 
-const day = 'saturday';
+// const day = 'saturday';
 
-switch (day) {
-    case 'monday':
-        console.log('Coding ang 1-2');
-        break;
-    case 'tuesday':
-        console.log('Coding ang 3-4');
-        break;
-    case 'wednesday':
-        console.log('Coding ang 5-6');
-        break;
-    case 'thursday':
-        console.log('Coding ang 7-8');
-        break;
-    case 'friday':
-        console.log('Coding ang 9-0');
-        break;
-    case 'saturday':
-    case 'sunday':
-        console.log('No coding!');
-        break;
-    default:
-        console.log('Enter a valid date!');
-}
+// switch (day) {
+//     case 'monday':
+//         console.log('Coding ang 1-2');
+//         break;
+//     case 'tuesday':
+//         console.log('Coding ang 3-4');
+//         break;
+//     case 'wednesday':
+//         console.log('Coding ang 5-6');
+//         break;
+//     case 'thursday':
+//         console.log('Coding ang 7-8');
+//         break;
+//     case 'friday':
+//         console.log('Coding ang 9-0');
+//         break;
+//     case 'saturday':
+//     case 'sunday':
+//         console.log('No coding!');
+//         break;
+//     default:
+//         console.log('Enter a valid date!');
+// }
