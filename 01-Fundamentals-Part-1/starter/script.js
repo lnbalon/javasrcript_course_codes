@@ -325,3 +325,13 @@ if (aveScoreKoalas > aveScoreDolhpins && aveScoreKoalas >= 100) {
     console.log('Nobody wins!')
 }
 
+const day = 'monday';
+
+switch (day) {
+    case 'monday':
+        console.log('Coding ang 1-2')
+        break;
+    case 'tuesday':
+        console.log('Coding ang 3-4')
+        break;
+}
