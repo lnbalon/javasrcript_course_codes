@@ -350,3 +350,8 @@ console.log(averageAge)
 //     default:
 //         console.log('Enter a valid date!');
 // }
+
+3 + 4 // experession
+1991 // experession
+true && true // experession
+
