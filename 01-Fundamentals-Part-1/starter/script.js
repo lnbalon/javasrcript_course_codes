@@ -334,4 +334,18 @@ switch (day) {
     case 'tuesday':
         console.log('Coding ang 3-4')
         break;
+    case 'wednesday':
+        console.log('Coding ang 5-6')
+        break;
+    case 'thursday':
+        console.log('Coding ang 7-8')
+        break;
+    case 'friday':
+        console.log('Coding ang 9-0')
+        break;
+    case 'saturday':
+    case 'sunday':
+        console.log('No coding!');
+    default:
+        console.log('Enter a valid date!');
 }
