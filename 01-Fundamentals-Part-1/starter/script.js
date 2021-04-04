@@ -325,7 +325,7 @@ if (aveScoreKoalas > aveScoreDolhpins && aveScoreKoalas >= 100) {
     console.log('Nobody wins!')
 }
 
-const day = 'sunday';
+const day = 'saturday';
 
 switch (day) {
     case 'monday':
