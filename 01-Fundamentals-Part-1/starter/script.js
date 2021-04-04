@@ -355,3 +355,12 @@ console.log(averageAge)
 1991 // experession
 true && true // experession
 
+if (23 > 100) {
+    const str = '23 is bigger'
+}
+
+// expressions produces value while statements are bigger.
+
+console.log(`I'm ${2031 - 1987} years old`)
+
+// template literals requires an expression
