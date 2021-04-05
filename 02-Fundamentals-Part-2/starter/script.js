@@ -25,6 +25,8 @@ console.log(fruitProcessor(1, 121));
 
 // practice code 3
 function isDivisibleByThree(num) {
+    // a function that tests if a number is divisible 
+    // by three or not. 
     const remainder = num % 3;
     if (!remainder) {
         return 'Divisible by 3!'
