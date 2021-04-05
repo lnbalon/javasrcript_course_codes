@@ -1,10 +1,5 @@
 'use strict';
 
-let hasDriversLicense = false;
-const passTest = true;
+function logger() {
 
-if (passTest) hasDriversLicense = true;
-if (hasDriversLicense) console.log('I can drive!');
-
-const private = 'audio';
-
+}
