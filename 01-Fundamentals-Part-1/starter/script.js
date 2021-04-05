@@ -378,3 +378,5 @@ if (age >= 18) {
 }
 
 console.log(drink, drink2)
+
+console.log(`${age >= 18 ? 'wine' : 'water'}`)
