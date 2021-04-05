@@ -365,7 +365,7 @@ console.log(averageAge)
 
 // template literals requires an expression
 
-const age = 23;
+const age = 12;
 age >= 18 ? console.log('can drink wine!') : console.log('cannot drink wine!');
 
 const drink = age >= 18 ? 'wine' : 'water'
@@ -376,3 +376,5 @@ if (age >= 18) {
 } else {
     drink2 = 'water';
 }
+
+console.log(drink, drink2)
