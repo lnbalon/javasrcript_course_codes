@@ -381,8 +381,8 @@ console.log(averageAge)
 
 // console.log(`${age >= 18 ? 'wine' : 'water'}`)
 
-const bill = Number(prompt('Enter the total Bill!'))
+// const bill = Number(prompt('Enter the total Bill!'))
 
-const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 
-console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`)
+// console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`)
