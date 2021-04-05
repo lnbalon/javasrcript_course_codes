@@ -10,5 +10,7 @@ function fruitProcessor(apples, oranges) {
     return juice
 }
 
-const juiceResult = fruitProcessor(2, 3)
-console.log(juiceResult)
+const juiceResult = fruitProcessor(2, 3);
+console.log(juiceResult);
+
+console.log(fruitProcessor(10, 20));
