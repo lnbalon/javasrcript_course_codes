@@ -40,3 +40,8 @@ console.log(isDivisibleByThree(12));
 console.log(isDivisibleByThree(122));
 
 // Next lesson
+
+function calcAge1(birthYear) {
+    const age = 2037 - birthYear;
+    return age
+}
