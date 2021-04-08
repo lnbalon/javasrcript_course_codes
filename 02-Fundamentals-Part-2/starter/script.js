@@ -70,3 +70,7 @@ const yearsUntilRetirement = (birthYear, firstName) => {
 
 console.log(yearsUntilRetirement(1991, 'bong'));
 console.log(yearsUntilRetirement(1211, 'd'));
+
+
+// functions calling other functions
+
