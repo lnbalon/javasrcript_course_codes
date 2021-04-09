@@ -88,7 +88,7 @@ function fruitProcessor2(apples, oranges) {
 console.log(fruitProcessor(2, 3));
 console.log(fruitProcessor2(2, 3));
 
-// Coding exercise
+// Coding exercise # 1
 
 // arrow function to get the average
 const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
