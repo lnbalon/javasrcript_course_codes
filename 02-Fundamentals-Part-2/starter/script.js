@@ -88,4 +88,4 @@ function fruitProcessor2(apples, oranges) {
 console.log(fruitProcessor(2, 3));
 console.log(fruitProcessor2(2, 3));
 
-// 
+// Coding exercise
