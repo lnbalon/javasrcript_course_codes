@@ -138,3 +138,13 @@ console.log(names.length)
 // access the last element
 console.log(names[names.length - 1])
 
+// array mutation
+names[2] = 'Maan';
+console.log(names);
+
+// array not mutable; results in error
+// names = ['new', 'new_name'];
+
+// more array operations
+const bong = ['Balon', 'UPLB', 2021 - 1987, names[0]];
+console.log(bong)
