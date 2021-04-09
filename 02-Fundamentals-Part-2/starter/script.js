@@ -99,10 +99,10 @@ const koalasAverage1 = calcAverage(65, 54, 49);
 const dolphinsAverage2 = calcAverage(85, 54, 41);
 const koalasAverage2 = calcAverage(23, 34, 27);
 
-
+// function to get the winner
 function checkWinner(avgKoalas, avgDolphins) {
 
-    console.log(avgKoalas, avgDolphins)
+    // console.log(avgKoalas, avgDolphins)
     if (avgDolphins >= avgKoalas * 2) {
         console.log(`Dolphins win (${avgDolphins} vs ${avgKoalas})`);
     } else if (avgKoalas >= avgDolphins * 2) {
@@ -112,6 +112,7 @@ function checkWinner(avgKoalas, avgDolphins) {
     }
 }
 
-
+// test the functions
 checkWinner(koalasAverage1, dolphinsAverage1);
 checkWinner(koalasAverage2, dolphinsAverage2);
+
