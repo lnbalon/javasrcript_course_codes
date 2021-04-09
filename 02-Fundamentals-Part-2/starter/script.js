@@ -117,3 +117,4 @@ checkWinner(koalasAverage1, dolphinsAverage1);
 checkWinner(koalasAverage2, dolphinsAverage2);
 checkWinner(440, 202);
 
+// arrays
