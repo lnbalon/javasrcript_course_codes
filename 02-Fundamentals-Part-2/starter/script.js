@@ -89,3 +89,29 @@ console.log(fruitProcessor(2, 3));
 console.log(fruitProcessor2(2, 3));
 
 // Coding exercise
+
+// arrow function to get the average
+const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
+
+const dolphinsAverage1 = calcAverage(44, 23, 71);
+const koalasAverage1 = calcAverage(65, 54, 49);
+
+const dolphinsAverage2 = calcAverage(85, 54, 41);
+const koalasAverage2 = calcAverage(23, 34, 27);
+
+
+function checkWinner(avgKoalas, avgDolphins) {
+
+    console.log(avgKoalas, avgDolphins)
+    if (avgDolphins >= avgKoalas * 2) {
+        console.log(`Dolphins win (${avgDolphins} vs ${avgKoalas})`);
+    } else if (avgKoalas >= avgDolphins * 2) {
+        console.log(`Koalas win (${avgKoalas} vs ${avgDolphins})`)
+    } else {
+        console.log('no one wins!')
+    }
+}
+
+
+checkWinner(koalasAverage1, dolphinsAverage1);
+checkWinner(koalasAverage2, dolphinsAverage2);
