@@ -118,3 +118,23 @@ checkWinner(koalasAverage2, dolphinsAverage2);
 checkWinner(440, 202);
 
 // arrays
+const name1 = 'bong';
+const name2 = 'nong';
+const name3 = 'maan';
+const name4 = 'godo';
+
+// literal syntax
+const names = ['bong', 'nong', 'maan', 'godo'];
+console.log(names)
+
+const years = new Array(1991, 1983, 2000, 4000);
+
+// accessing arrays
+console.log(names[0])
+
+// length arrays
+console.log(names.length)
+
+// access the last element
+console.log(names[names.length - 1])
+
