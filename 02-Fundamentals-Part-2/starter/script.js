@@ -148,3 +148,13 @@ console.log(names);
 // more array operations
 const bong = ['Balon', 'UPLB', 2021 - 1987, names[0]];
 console.log(bong)
+
+// accessing arrays
+const birthYears = [1990, 1967, 2002, 2010, , 2018];
+
+console.log(calcAge1(birthYears[2]))
+console.log(calcAge1(birthYears[1]))
+console.log(calcAge1(birthYears[3]))
+
+const ages = [calcAge1(birthYears[3]), calcAge1(birthYears[2])]
+console.log(ages)
