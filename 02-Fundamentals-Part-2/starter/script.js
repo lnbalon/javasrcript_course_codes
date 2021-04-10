@@ -219,7 +219,16 @@ const sampleObject = {
     lastName: 'Balon',
     job: 'programmer',
     siblings: ['Nong', 'Maan', 'Godo'],
-    age: 2021 - 1987
+    birthYear: 1987,
+    hasLicense: true,
+    calcAge: function () {
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+    getSummary: function () {
+        this.summary = `${this.firstName} is a ${this.age} year old ${this.job}. He has ${this.hasLicense ? 'a' : 'no'} driver's license`;
+        return this.summary;
+    }
 };
 
 console.log(sampleObject);
@@ -256,7 +265,10 @@ console.log(sampleObject)
 
 
 // console
-console.log(`${sampleObject.firstName} has ${sampleObject.siblings.length} siblings and the next to him is ${sampleObject.siblings[0]}`)
+console.log(`${sampleObject.firstName} has ${sampleObject.siblings.length} siblings and the next to him is ${sampleObject.siblings[0]}`);
 
 // object methods
+console.log(sampleObject['calcAge']());
 
+
+console.log(sampleObject['getSummary']());
