@@ -257,3 +257,6 @@ console.log(sampleObject)
 
 // console
 console.log(`${sampleObject.firstName} has ${sampleObject.siblings.length} siblings and the next to him is ${sampleObject.siblings[0]}`)
+
+// object methods
+
