@@ -211,3 +211,29 @@ const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(total);
 
 // objects
+
+// the object literal syntax
+const sampleObject = {
+    firstName: 'Leonard',
+    middleName: 'Navarro',
+    lastName: 'Balon',
+    job: 'programmer',
+    siblings: ['Nong', 'Maan', 'Godo'],
+    age: 2021 - 1987
+};
+
+console.log(sampleObject);
+
+// dot notation
+console.log(sampleObject.firstName);
+
+
+//bracket notation
+console.log(sampleObject['middleName']);
+
+
+const nameKey = 'Name';
+
+console.log(sampleObject['first' + nameKey]);
+console.log(sampleObject['middle' + nameKey]);
+console.log(sampleObject['last' + nameKey]);
