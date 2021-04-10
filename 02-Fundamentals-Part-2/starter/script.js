@@ -186,6 +186,8 @@ console.log(numList.includes(2));
 
 // tip 15% if values is between 50 and 300
 
+// longer implementation
+// readable
 function calcTip(billAmount) {
     if (billAmount >= 50 && billAmount <= 300) {
         return billAmount * 0.15;
@@ -194,6 +196,7 @@ function calcTip(billAmount) {
     }
 }
 
+// shorter implementation
 const calcTip2 = function (bill) {
     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
@@ -207,3 +210,4 @@ console.log(tips);
 const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 console.log(total);
 
+// objects
