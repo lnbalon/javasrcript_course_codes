@@ -160,11 +160,25 @@
 // console.log(ages)
 
 // methods on arrays
+
+// adding elements
 const numList = [1, 2, 3, 4, 5];
-const lenNumList = numList.push(6)
+const lenNumList = numList.push(6); // the push method returns the length of the new array
 
-console.log(numList)
-console.log(lenNumList)
+console.log(numList);
+console.log(lenNumList);
 
-numList.unshift(0)
-console.log(numList)
+const unshifted = numList.unshift(0);
+console.log(unshifted)
+console.log(numList);
+
+// removing elements
+numList.pop(); // the pop method returns the removed element
+console.log(numList);
+
+numList.shift(); // removes the first element
+
+console.log(numList.indexOf(2));
+console.log(numList.indexOf(210));
+
+console.log(numList.includes(2));
