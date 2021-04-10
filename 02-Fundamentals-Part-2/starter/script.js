@@ -158,3 +158,5 @@ console.log(calcAge1(birthYears[3]))
 
 const ages = [calcAge1(birthYears[3]), calcAge1(birthYears[2])]
 console.log(ages)
+
+// methods on arrays
