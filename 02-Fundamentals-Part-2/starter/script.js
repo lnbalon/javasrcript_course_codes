@@ -184,3 +184,16 @@ console.log(numList.includes(2));
 
 // coding challenge for arrays
 
+// tip 15% if values is between 50 and 300
+
+function calcTip(billAmount) {
+    if (billAmount >= 50 && billAmount <= 300) {
+        return billAmount * 0.15;
+    } else {
+        return billAmount * 0.20;
+    }
+}
+
+console.log(calcTip(100));
+
+const bills = [125, 555, 44];
