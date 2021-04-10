@@ -233,7 +233,27 @@ console.log(sampleObject['middleName']);
 
 
 const nameKey = 'Name';
-
 console.log(sampleObject['first' + nameKey]);
 console.log(sampleObject['middle' + nameKey]);
 console.log(sampleObject['last' + nameKey]);
+
+// sample use of bracket notation
+// const interest = prompt('What do you want to know about me?');
+// console.log(interest);
+// console.log(sampleObject[interest]);
+
+// if (sampleObject[interest]) {
+//     console.log(sampleObject[interest]);
+// } else {
+//     console.log('Invalid Value!');
+// }
+
+// add properties to objects
+sampleObject.location = 'Manila';
+sampleObject['nickName'] = 'Bong';
+
+console.log(sampleObject)
+
+
+// console
+console.log(`${sampleObject.firstName} has ${sampleObject.siblings.length} siblings and the next to him is ${sampleObject.siblings[0]}`)
