@@ -180,5 +180,7 @@ numList.shift(); // removes the first element
 
 console.log(numList.indexOf(2));
 console.log(numList.indexOf(210));
-
 console.log(numList.includes(2));
+
+// coding challenge for arrays
+
