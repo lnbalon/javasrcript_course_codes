@@ -316,4 +316,11 @@ const john = {
     }
 }
 
+
+john.calcBMI();
+mark.calcBMI();
+
 console.log(john.BMI, mark.BMI)
+
+
+console.log(`${john.BMI > mark.BMI ? "John's BMI" : "Mark's BMI"} (${john.BMI > mark.BMI ? john.BMI : mark.BMI}) is higher than ${john.BMI > mark.BMI ? "Mark's" : "John's"} (${john.BMI > mark.BMI ? mark.BMI : john.BMI})`)
