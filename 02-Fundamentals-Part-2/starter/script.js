@@ -285,10 +285,12 @@ const customer = {
     secondName: null,
     middleName: 'Navarro',
     lastName: 'Balon',
-    calcAge: function (birthYear) {
-        return 2021 - birthYear
+    birthYear: 1987,
+    calcAge: function () {
+        return 2021 - this.birthYear
     }
 }
 
-console.log(customer.calcAge(2000));
-console.log(customer['calcAge'](2000));
+// console.log(customer.calcAge(2000));
+// console.log(customer['calcAge'](2000)); 
+
