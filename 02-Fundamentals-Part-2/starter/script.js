@@ -220,7 +220,7 @@ const sampleObject = {
     job: 'programmer',
     siblings: ['Nong', 'Maan', 'Godo'],
     birthYear: 1987,
-    hasLicense: true,
+    hasLicense: false,
     calcAge: function () {
         this.age = 2037 - this.birthYear;
         return this.age;
@@ -272,3 +272,23 @@ console.log(sampleObject['calcAge']());
 
 
 console.log(sampleObject['getSummary']());
+
+// object methods
+
+
+// adding functions to objects
+// a function attached to an object is a method
+// need to use function expression
+// a method is thus a property having function as a value
+const customer = {
+    firstName: 'Leonard',
+    secondName: null,
+    middleName: 'Navarro',
+    lastName: 'Balon',
+    calcAge: function (birthYear) {
+        return 2021 - birthYear
+    }
+}
+
+console.log(customer.calcAge(2000));
+console.log(customer['calcAge'](2000));
