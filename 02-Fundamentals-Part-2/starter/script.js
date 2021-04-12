@@ -162,25 +162,25 @@
 // methods on arrays
 
 // adding elements
-const numList = [1, 2, 3, 4, 5];
-const lenNumList = numList.push(6); // the push method returns the length of the new array
+// const numList = [1, 2, 3, 4, 5];
+// const lenNumList = numList.push(6); // the push method returns the length of the new array
 
-console.log(numList);
-console.log(lenNumList);
+// console.log(numList);
+// console.log(lenNumList);
 
-const unshifted = numList.unshift(0);
-console.log(unshifted)
-console.log(numList);
+// const unshifted = numList.unshift(0);
+// console.log(unshifted)
+// console.log(numList);
 
-// removing elements
-numList.pop(); // the pop method returns the removed element
-console.log(numList);
+// // removing elements
+// numList.pop(); // the pop method returns the removed element
+// console.log(numList);
 
-numList.shift(); // removes the first element
+// numList.shift(); // removes the first element
 
-console.log(numList.indexOf(2));
-console.log(numList.indexOf(210));
-console.log(numList.includes(2));
+// console.log(numList.indexOf(2));
+// console.log(numList.indexOf(210));
+// console.log(numList.includes(2));
 
 // coding challenge for arrays
 
@@ -188,147 +188,170 @@ console.log(numList.includes(2));
 
 // longer implementation
 // readable
-function calcTip(billAmount) {
-    if (billAmount >= 50 && billAmount <= 300) {
-        return billAmount * 0.15;
-    } else {
-        return billAmount * 0.20;
-    }
-}
+// function calcTip(billAmount) {
+//     if (billAmount >= 50 && billAmount <= 300) {
+//         return billAmount * 0.15;
+//     } else {
+//         return billAmount * 0.20;
+//     }
+// }
 
-// shorter implementation
-const calcTip2 = function (bill) {
-    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
-}
+// // shorter implementation
+// const calcTip2 = function (bill) {
+//     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+// }
 
-console.log(calcTip(100));
+// console.log(calcTip(100));
 
-const bills = [125, 555, 44];
-const tips = [calcTip2(bills[0]), calcTip2(bills[1]), calcTip2(bills[2])];
-console.log(tips);
+// const bills = [125, 555, 44];
+// const tips = [calcTip2(bills[0]), calcTip2(bills[1]), calcTip2(bills[2])];
+// console.log(tips);
 
-const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
-console.log(total);
+// const total = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+// console.log(total);
 
 // objects
 
 // the object literal syntax
-const sampleObject = {
-    firstName: 'Leonard',
-    middleName: 'Navarro',
-    lastName: 'Balon',
-    job: 'programmer',
-    siblings: ['Nong', 'Maan', 'Godo'],
-    birthYear: 1987,
-    hasLicense: false,
-    calcAge: function () {
-        this.age = 2037 - this.birthYear;
-        return this.age;
-    },
-    getSummary: function () {
-        this.summary = `${this.firstName} is a ${this.age} year old ${this.job}. He has ${this.hasLicense ? 'a' : 'no'} driver's license`;
-        return this.summary;
-    }
-};
+// const sampleObject = {
+//     firstName: 'Leonard',
+//     middleName: 'Navarro',
+//     lastName: 'Balon',
+//     job: 'programmer',
+//     siblings: ['Nong', 'Maan', 'Godo'],
+//     birthYear: 1987,
+//     hasLicense: false,
+//     calcAge: function () {
+//         this.age = 2037 - this.birthYear;
+//         return this.age;
+//     },
+//     getSummary: function () {
+//         this.summary = `${this.firstName} is a ${this.age} year old ${this.job}. He has ${this.hasLicense ? 'a' : 'no'} driver's license`;
+//         return this.summary;
+//     }
+// };
 
-console.log(sampleObject);
+// console.log(sampleObject);
 
-// dot notation
-console.log(sampleObject.firstName);
-
-
-//bracket notation
-console.log(sampleObject['middleName']);
+// // dot notation
+// console.log(sampleObject.firstName);
 
 
-const nameKey = 'Name';
-console.log(sampleObject['first' + nameKey]);
-console.log(sampleObject['middle' + nameKey]);
-console.log(sampleObject['last' + nameKey]);
+// //bracket notation
+// console.log(sampleObject['middleName']);
 
-// sample use of bracket notation
-// const interest = prompt('What do you want to know about me?');
-// console.log(interest);
-// console.log(sampleObject[interest]);
 
-// if (sampleObject[interest]) {
-//     console.log(sampleObject[interest]);
-// } else {
-//     console.log('Invalid Value!');
+// const nameKey = 'Name';
+// console.log(sampleObject['first' + nameKey]);
+// console.log(sampleObject['middle' + nameKey]);
+// console.log(sampleObject['last' + nameKey]);
+
+// // sample use of bracket notation
+// // const interest = prompt('What do you want to know about me?');
+// // console.log(interest);
+// // console.log(sampleObject[interest]);
+
+// // if (sampleObject[interest]) {
+// //     console.log(sampleObject[interest]);
+// // } else {
+// //     console.log('Invalid Value!');
+// // }
+
+// // add properties to objects
+// sampleObject.location = 'Manila';
+// sampleObject['nickName'] = 'Bong';
+
+// console.log(sampleObject)
+
+
+// // console
+// console.log(`${sampleObject.firstName} has ${sampleObject.siblings.length} siblings and the next to him is ${sampleObject.siblings[0]}`);
+
+// // object methods
+// console.log(sampleObject['calcAge']());
+
+
+// console.log(sampleObject['getSummary']());
+
+// // object methods
+
+
+// // adding functions to objects
+// // a function attached to an object is a method
+// // need to use function expression
+// // a method is thus a property having function as a value
+// const customer = {
+//     firstName: 'Leonard',
+//     secondName: null,
+//     middleName: 'Navarro',
+//     lastName: 'Balon',
+//     birthYear: 1987,
+//     calcAge: function () {
+//         return 2021 - this.birthYear
+//     }
 // }
 
-// add properties to objects
-sampleObject.location = 'Manila';
-sampleObject['nickName'] = 'Bong';
+// // console.log(customer.calcAge(2000));
+// // console.log(customer['calcAge'](2000)); 
 
-console.log(sampleObject)
+// // coding challenge # 3
 
+// const mark = {
+//     fullName: 'Mark Miller',
+//     mass: 78,
+//     height: 1.69,
+//     calcBMI: function () {
+//         this.BMI = this.mass / (this.height ** 2);
+//         return this.BMI;
+//     }
+// }
 
-// console
-console.log(`${sampleObject.firstName} has ${sampleObject.siblings.length} siblings and the next to him is ${sampleObject.siblings[0]}`);
-
-// object methods
-console.log(sampleObject['calcAge']());
-
-
-console.log(sampleObject['getSummary']());
-
-// object methods
-
-
-// adding functions to objects
-// a function attached to an object is a method
-// need to use function expression
-// a method is thus a property having function as a value
-const customer = {
-    firstName: 'Leonard',
-    secondName: null,
-    middleName: 'Navarro',
-    lastName: 'Balon',
-    birthYear: 1987,
-    calcAge: function () {
-        return 2021 - this.birthYear
-    }
-}
-
-// console.log(customer.calcAge(2000));
-// console.log(customer['calcAge'](2000)); 
-
-// coding challenge # 3
-
-const mark = {
-    fullName: 'Mark Miller',
-    mass: 78,
-    height: 1.69,
-    calcBMI: function () {
-        this.BMI = this.mass / (this.height ** 2);
-        return this.BMI;
-    }
-}
-
-const john = {
-    fullName: 'John Smith',
-    mass: 92,
-    height: 1.95,
-    calcBMI: function () {
-        this.BMI = this.mass / (this.height ** 2);
-        return this.BMI;
-    }
-}
+// const john = {
+//     fullName: 'John Smith',
+//     mass: 92,
+//     height: 1.95,
+//     calcBMI: function () {
+//         this.BMI = this.mass / (this.height ** 2);
+//         return this.BMI;
+//     }
+// }
 
 
-john.calcBMI();
-mark.calcBMI();
+// john.calcBMI();
+// mark.calcBMI();
 
-console.log(john.BMI, mark.BMI)
+// console.log(john.BMI, mark.BMI)
 
 
-console.log(`${john.BMI > mark.BMI ? "John's BMI" : "Mark's BMI"} (${john.BMI > mark.BMI ? john.BMI : mark.BMI}) is higher than ${john.BMI > mark.BMI ? "Mark's" : "John's"} (${john.BMI > mark.BMI ? mark.BMI : john.BMI})`)
+// console.log(`${john.BMI > mark.BMI ? "John's BMI" : "Mark's BMI"} (${john.BMI > mark.BMI ? john.BMI : mark.BMI}) is higher than ${john.BMI > mark.BMI ? "Mark's" : "John's"} (${john.BMI > mark.BMI ? mark.BMI : john.BMI})`)
 
 // control structures
 
 // the for loop
 
-for (let rep = 1; rep <= 10; rep++) {
-    console.log(`count to ${rep}`)
+for (let rep = 1; rep <= 2; rep++) {
+    console.log(`count to ${rep}`);
 }
+
+const sampleList = [1, 2, 3, 4, 5, 6];
+
+for (let i = 0; i < sampleList.length; i++) {
+    console.log(sampleList[i] ** 2)
+}
+
+// implement the fibonacci function in JavaScript
+function fib(n) {
+    let fibList = [];
+    let a = 0;
+    let b = 1;
+    let c = 0;
+    for (let i = 0; i <= n; i++) {
+        fibList.push(a)
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    return fibList;
+}
+
+console.log(fib(20))
