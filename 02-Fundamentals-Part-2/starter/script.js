@@ -328,3 +328,7 @@ console.log(`${john.BMI > mark.BMI ? "John's BMI" : "Mark's BMI"} (${john.BMI > 
 // control structures
 
 // the for loop
+
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`count to ${rep}`)
+}
