@@ -329,15 +329,15 @@
 
 // the for loop
 
-for (let rep = 1; rep <= 2; rep++) {
-    console.log(`count to ${rep}`);
-}
+// for (let rep = 1; rep <= 2; rep++) {
+//     console.log(`count to ${rep}`);
+// }
 
-const sampleList = [1, 2, 3, 4, 5, 6];
+// const sampleList = [1, 2, 3, 4, 5, 6];
 
-for (let i = 0; i < sampleList.length; i++) {
-    console.log(sampleList[i] ** 2)
-}
+// for (let i = 0; i < sampleList.length; i++) {
+//     console.log(sampleList[i] ** 2)
+// }
 
 // implement the fibonacci function in JavaScript
 function fib(n) {
@@ -354,4 +354,16 @@ function fib(n) {
     return fibList;
 }
 
-console.log(fib(20))
+// console.log(fib(20))
+
+for (let i = 0; i <= 10; i++) {
+    if (i === 2) {
+        continue
+    }
+    else if (i === 9) {
+        break
+    }
+    else {
+        console.log(i)
+    }
+}
