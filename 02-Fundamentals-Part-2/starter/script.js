@@ -340,33 +340,52 @@
 // }
 
 // implement the fibonacci function in JavaScript
-function fib(n) {
-    let fibList = [];
-    let a = 0;
-    let b = 1;
-    let c = 0;
-    for (let i = 0; i <= n; i++) {
-        fibList.push(a)
-        c = a + b;
-        a = b;
-        b = c;
-    }
-    return fibList;
-}
+// function fib(n) {
+//     let fibList = [];
+//     let a = 0;
+//     let b = 1;
+//     let c = 0;
+//     for (let i = 0; i <= n; i++) {
+//         fibList.push(a)
+//         c = a + b;
+//         a = b;
+//         b = c;
+//     }
+//     return fibList;
+// }
 
-// console.log(fib(20))
+// // console.log(fib(20))
 
 
-// continue and break
+// // continue and break
+// for (let i = 0; i <= 10; i++) {
+//     if (i === 2) {
+//         continue
+//     }
+//     else if (i === 9) {
+//         break
+//     }
+//     else {
+//         console.log(i)
+//     }
+// }
+
+
+// backward loop
+// for (let i = 10; i >= 0; i--) {
+//     console.log(i);
+// }
+
+// loop within a loop
+
+let first = [];
+let second = [];
+let third = [];
+
 for (let i = 0; i <= 10; i++) {
-    if (i === 2) {
-        continue
-    }
-    else if (i === 9) {
-        break
-    }
-    else {
-        console.log(i)
+    for (let j = 0; j <= 10; j++) {
+        first.push(i * j)
     }
 }
 
+console.log(first)
