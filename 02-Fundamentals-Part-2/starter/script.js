@@ -378,14 +378,16 @@
 
 // loop within a loop
 
-let first = [];
-let second = [];
-let third = [];
+// let first = [];
+// let second = [];
+// let third = [];
 
-for (let i = 0; i <= 10; i++) {
-    for (let j = 0; j <= 10; j++) {
-        first.push(i * j)
-    }
-}
+// for (let i = 1; i <= 5; i++) {
+//     console.log(`exercise ${i}`);
+//     for (let j = 1; j <= 10; j++) {
+//         console.log(`repetition ${j}`);
+//     }
+// }
 
-console.log(first)
+// console.log(first)
+
