@@ -356,6 +356,8 @@ function fib(n) {
 
 // console.log(fib(20))
 
+
+// continue and break
 for (let i = 0; i <= 10; i++) {
     if (i === 2) {
         continue
@@ -367,3 +369,4 @@ for (let i = 0; i <= 10; i++) {
         console.log(i)
     }
 }
+
