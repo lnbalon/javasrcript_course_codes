@@ -399,9 +399,14 @@ while (i <= 10) {
     i++
 }
 
+
 // while loop rolling a dice
-let dice = Math.trunc(Math.random(0, 1) * 6 + 1);
+function rollDice() {
+    return Math.trunc(Math.random(0, 1) * 6 + 1)
+}
+
+dice = rollDice();
 while (dice != 6) {
     console.log(`you rolled a ${dice}`);
-    dice = Math.trunc(Math.random(0, 1) * 6 + 1);
+    dice = rollDice();
 }
