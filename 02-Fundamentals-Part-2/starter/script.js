@@ -402,11 +402,12 @@ while (i <= 10) {
 
 // while loop rolling a dice
 function rollDice() {
-    return Math.trunc(Math.random(0, 1) * 6 + 1)
+    const dice = Math.trunc(Math.random(0, 1) * 6 + 1)
+    console.log(`you rolled a ${dice}`);
+    return dice
 }
 
-dice = rollDice();
+let dice = rollDice();
 while (dice != 6) {
-    console.log(`you rolled a ${dice}`);
     dice = rollDice();
 }
