@@ -437,6 +437,16 @@ console.log(totals);
 function calcAverage(listNumbers) {
     let total = 0;
     let lenList = listNumbers.length;
+    for (let i = 0; i < lenList; i++) {
+        const num = listNumbers[i];
+        total += num;
+    }
+    const ave = total / lenList;
+    return ave;
 
-    for (let i = 0; i < lenList: i++)
-} 
+}
+
+console.log(calcAverage([1, 2, 3, 4, 5]))
+console.log(calcAverage(bills))
+console.log(calcAverage(tips))
+console.log(calcAverage(totals))
