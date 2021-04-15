@@ -414,16 +414,29 @@
 
 
 // coding challenge
-const calcTip2 = function (bill) {
+const calcTip = function (bill) {
     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
 
-const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
-
-const tips = []
-const totals = []
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips = [];
+const totals = [];
 
 for (let i = 0; i < bills.length; i++) {
-    const bill = bills[i]
-    console.log(bill)
+    const bill = bills[i];
+    const tip = calcTip(bill);
+    const total = tip + bill;
+    tips.push(tip);
+    totals.push(total);
 }
+
+console.log(tips);
+console.log(totals);
+
+
+function calcAverage(listNumbers) {
+    let total = 0;
+    let lenList = listNumbers.length;
+
+    for (let i = 0; i < lenList: i++)
+} 
