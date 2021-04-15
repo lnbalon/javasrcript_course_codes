@@ -401,13 +401,29 @@
 
 
 // while loop rolling a dice
-function rollDice() {
-    const dice = Math.trunc(Math.random(0, 1) * 6 + 1)
-    console.log(`you rolled a ${dice}`);
-    return dice
+// function rollDice() {
+//     const dice = Math.trunc(Math.random(0, 1) * 6 + 1)
+//     console.log(`you rolled a ${dice}`);
+//     return dice
+// }
+
+// let dice = rollDice();
+// while (dice != 6) {
+//     dice = rollDice();
+// }
+
+
+// coding challenge
+const calcTip2 = function (bill) {
+    return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
 }
 
-let dice = rollDice();
-while (dice != 6) {
-    dice = rollDice();
+const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52]
+
+const tips = []
+const totals = []
+
+for (let i = 0; i < bills.length; i++) {
+    const bill = bills[i]
+    console.log(bill)
 }
