@@ -436,13 +436,10 @@ console.log(totals);
 
 function calcAverage(listNumbers) {
     let total = 0;
-    let lenList = listNumbers.length;
-    for (let i = 0; i < lenList; i++) {
-        const num = listNumbers[i];
-        total += num;
+    for (let i = 0; i < listNumbers.length; i++) {
+        total += listNumbers[i];
     }
-    const ave = total / lenList;
-    return ave;
+    return total / listNumbers.length;
 
 }
 
