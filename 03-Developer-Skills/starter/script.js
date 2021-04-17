@@ -2,3 +2,5 @@
 "use strict";
 
 const x = 10;
+
+const y = 2;
