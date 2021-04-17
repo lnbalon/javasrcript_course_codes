@@ -7,3 +7,5 @@ const y = 2;
 if (x === 10) {
   console.log('good');
 }
+
+const calcAge = birthYear => 2021 - birthYear;
