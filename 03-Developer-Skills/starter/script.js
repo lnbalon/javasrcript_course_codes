@@ -7,24 +7,25 @@
 const temperatures = [3 - 2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
 
 function getAmplitude(tempArray) {
+  // set the min and max temperature values temporarily
   let minTemp = Number.MAX_VALUE;
   let maxTemp = Number.MIN_VALUE;
 
   for (let i = 0; i < tempArray.length; i++) {
     // extract the temp
     let temp = tempArray[i];
+
+    // check if the temp is a number
     if (typeof temp === 'number') {
-      console.log(temp);
       if (temp > maxTemp) {
         maxTemp = temp;
       } else if (temp < minTemp) {
         minTemp = temp;
       }
-      console.log(minTemp, maxTemp);
     }
   }
-  return minTemp, maxTemp;
+  return maxTemp - minTemp;
 }
 
-const a = getAmplitude(temperatures);
-console.log(a);
+const amplitude = getAmplitude(temperatures);
+console.log(`the amplitude is ${amplitude}`);
