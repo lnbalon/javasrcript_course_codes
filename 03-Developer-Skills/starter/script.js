@@ -40,4 +40,7 @@ const measureKelvin = function () {
   };
 
   const kelvin = measurement.value + 273.15;
+  return kelvin;
 };
+
+console.log(measureKelvin());
