@@ -45,3 +45,16 @@
 // };
 
 // console.log(measureKelvin());
+
+// coding challenge
+
+function printForecast(arr) {
+  // initialize the first element as the maximum temp
+  maxTemp;
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
+
+const testData1 = [17, 21, 23];
+console.log(printForecast(testData1));
