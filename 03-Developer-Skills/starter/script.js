@@ -50,9 +50,11 @@
 
 function printForecast(arr) {
   // initialize the first element as the maximum temp
-  maxTemp;
+  let maxTemp = arr[0];
   for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
+    let newTemp = arr[i];
+    if (newTemp > maxTemp) maxTemp = newTemp;
+    console.log(maxTemp);
   }
 }
 
