@@ -51,15 +51,11 @@
 function printForecast(arr) {
   // initialize the first element as the maximum temp
   let maxTemp = arr[0];
-  let counter = 1;
-  let stringOutput = '';
+  let stringOutput = '... ';
   for (let i = 0; i < arr.length; i++) {
     let newTemp = arr[i];
     if (newTemp > maxTemp) maxTemp = newTemp;
-    // console.log(`${counter}: ${maxTemp}`);
-    stringOutput += `... ${maxTemp}degC in ${counter} days`;
-
-    counter++;
+    stringOutput += `${maxTemp}degC in ${i + 1} days ...`;
   }
   return stringOutput;
 }
