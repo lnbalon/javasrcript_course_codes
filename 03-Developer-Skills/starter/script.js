@@ -16,6 +16,7 @@ function getAmplitude(tempArray) {
     let temp = tempArray[i];
 
     // check if the temp is a number
+    debugger;
     if (typeof temp === 'number') {
       if (temp > maxTemp) {
         maxTemp = temp;
