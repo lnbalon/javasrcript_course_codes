@@ -31,3 +31,13 @@
 // console.log(`the amplitude is ${amplitude}`);
 
 // debugging
+
+const measureKelvin = function () {
+  const measurement = {
+    type: 'temperature',
+    unit: 'celsius',
+    value: prompt('Degrees celsius:'),
+  };
+
+  const kelvin = measurement.value + 273.15;
+};
