@@ -29,8 +29,8 @@ p {
   color: red;
 }
 
-#your-name {
-  background-color: rgb(255, 220, 105);
+.box {
+  background-color: red;
   border: 5px solid #444;
   width: 400px;
   padding: 25px;
@@ -47,8 +47,8 @@ a {
   background-color: yellowgreen;
 }
 
-#course-image {
-  width: 300px;
+.first-pic {
+  width: 400px;
 }
 
 #your-name h2 {
