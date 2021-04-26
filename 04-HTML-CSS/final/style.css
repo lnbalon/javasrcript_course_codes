@@ -5,14 +5,14 @@
 }
 
 body {
-  background-color: rgb(255, 247, 201);
+  background-color: yellow;
   font-family: Arial;
   font-size: 20px;
   padding: 50px;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 45px;
   margin-bottom: 25px;
 }
 
