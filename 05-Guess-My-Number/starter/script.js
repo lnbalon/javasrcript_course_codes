@@ -20,6 +20,7 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = 'Correct number';
 
     document.querySelector('body').style.backgroundColor = 'green';
+    document.querySelector('.number').style.width = '30rem';
 
     // too high
   } else if (guess > secretNumber) {
@@ -29,6 +30,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       document.querySelector('.message').textContent = 'You lost the game!';
+      document.querySelector('body').style.backgroundColor = 'red';
     }
 
     // too low
@@ -39,6 +41,7 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.score').textContent = score;
     } else {
       document.querySelector('.message').textContent = 'You lost the game!';
+      document.querySelector('body').style.backgroundColor = 'red';
     }
   }
 });
